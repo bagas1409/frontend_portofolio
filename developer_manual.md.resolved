@@ -1,0 +1,75 @@
+# Developer Manual & Cheat Sheet 🛠️
+
+Dokumen ini berisi panduan teknis untuk maintenance project **Portfolio** dan **Admin Panel**. Simpan file ini agar tidak lupa!
+
+---
+
+## 1. Auto-Translation Tool 🌍
+
+Fitur ini digunakan untuk menerjemahkan otomatis semua bahasa berdasarkan file **Bahasa Indonesia** ([id.json](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/lib/dictionaries/id.json)).
+
+**Lokasi Script:** [bagas-developer/translate_tools.py](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/translate_tools.py)
+**Master File:** [bagas-developer/lib/dictionaries/id.json](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/lib/dictionaries/id.json)
+
+### Cara Menggunakan:
+1.  **Edit Master File:**
+    Buka [bagas-developer/lib/dictionaries/id.json](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/lib/dictionaries/id.json) dan ubah teks bahasa Indonesia sesuai keinginan.
+2.  **Jalankan Script:**
+    Buka terminal di folder [bagas-developer](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer) dan ketik:
+    ```bash
+    python translate_tools.py
+    ```
+    *(Pastikan sudah install: `pip install googletrans==4.0.0-rc1`)*
+3.  **Selesai:**
+    Script akan otomatis mengupdate file [en.json](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/lib/dictionaries/en.json), [jp.json](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/lib/dictionaries/jp.json), [cn.json](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/lib/dictionaries/cn.json), dan [ar.json](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/lib/dictionaries/ar.json).
+
+---
+
+## 2. Environment Variables (RAHASIA) 🔑
+
+Jangan pernah upload file [.env](file:///c:/Users/kosuke/Desktop/portofolio/be/.env) asli ke GitHub! Gunakan contekan ini untuk setting di Vercel/Railway.
+
+### A. Backend (Railway)
+Setting ini ada di dashboard Railway Project Backend.
+
+| Key | Value (Contoh/Format) | Fungsi |
+| :--- | :--- | :--- |
+| `PORT` | `5000` | Port aplikasi |
+| `MONGO_URI` | `mongodb+srv://...` | Koneksi Database MongoDB |
+| `JWT_SECRET` | [(Password Panjang Acak)](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/components/Hero.tsx#9-171) | Kunci enkripsi login |
+| `NODE_ENV` | `production` | Mode aplikasi |
+| `CLIENT_URL` | `https://bagas-portofolio.vercel.app` | URL Frontend Portfolio (Tanpa `/`) |
+| `ADMIN_URL` | `https://admin-portofolio.vercel.app` | URL Admin Panel (Tanpa `/`) |
+
+### B. Frontend Portfolio ([bagas-developer](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer))
+Setting ini ada di dashboard Vercel -> Settings -> Environment Variables.
+
+| Key | Value | Fungsi |
+| :--- | :--- | :--- |
+| `NEXT_PUBLIC_API_URL` | `https://[backend-url].up.railway.app/api` | Koneksi ke Backend (Wajib pakai `/api` di ujung) |
+
+### C. Admin Panel ([admin-panel](file:///c:/Users/kosuke/Desktop/portofolio/admin-panel))
+Setting ini ada di dashboard Vercel -> Settings -> Environment Variables.
+
+| Key | Value | Fungsi |
+| :--- | :--- | :--- |
+| `NEXT_PUBLIC_API_URL` | `https://[backend-url].up.railway.app/api` | Koneksi ke Backend (Wajib pakai `/api` di ujung) |
+
+---
+
+## 3. Deployment Checklist 🚀
+
+Saat mau update website:
+
+1.  **Backend Changes:**
+    *   Commit & Push folder [be](file:///c:/Users/kosuke/Desktop/portofolio/bagas-developer/components/Projects.tsx#56-62).
+    *   Tunggu Railway Redeploy.
+    *   Jika ada perubahan URL Frontend, update `CLIENT_URL` / `ADMIN_URL` di Railway.
+
+2.  **Frontend Changes:**
+    *   Run `npm run lint` di laptop dulu untuk pastikan aman.
+    *   Commit & Push ke GitHub.
+    *   Vercel akan otomatis build.
+
+---
+*Dibuat otomatis oleh AI Assistant - Jan 2026*

@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "ホームページ",
+    "about": "について",
+    "projects": "プロジェクト",
+    "testimonials": "お客様の声",
+    "contact": "接触"
+  },
+  "hero": {
+    "role": "シニア Web 開発者",
+    "description": "正確でアクセスしやすく、パフォーマンスの高い Web エクスペリエンスを構築します。",
+    "cta_projects": "プロジェクトを見る",
+    "cta_contact": "連絡してください"
+  },
+  "about": {
+    "badge_exp": "フルスタックエクスペリエンス",
+    "years_exp": "1年以上",
+    "title_main": "デジタル製品を構築する",
+    "title_accent": "意味深い。",
+    "skills": {
+      "frontend_title": "フロントエンド",
+      "frontend_desc": "Next.js と Tailwind を使用して、完璧で応答性が高く、アクセスしやすいユーザー インターフェイスを作成しました。",
+      "backend_title": "バックエンド",
+      "backend_desc": "Node.js と PostgreSQL/MongoDB を使用して、スケーラブルな API と安全なデータベース アーキテクチャを構築します。",
+      "mobile_title": "クロスプラットフォーム",
+      "mobile_desc": "React Native と Expo を使用してネイティブ モバイル エクスペリエンスを提供します。"
+    }
+  },
+  "projects": {
+    "portfolio": "プロジェクト",
+    "selected_works": "傑作",
+    "filter_all": "全て",
+    "filter_web": "ウェブ",
+    "filter_mobile": "携帯",
+    "view_project": "プロジェクトを見る",
+    "stack_used": "テクノロジー"
+  },
+  "testimonials": {
+    "label": "お客様の声",
+    "heading": "お客様の声",
+    "subheading": "私たちは優れた結果を提供することに誇りを持っています。以下は、パートナーやクライアントからの正直なレビューです。",
+    "happy_clients": "満足したクライアント",
+    "based_on": "100 件以上のレビューに基づく"
+  },
+  "contact": {
+    "subheading": "接触",
+    "heading": "一緒にプロジェクトを始めましょう",
+    "description": "一緒に働くことに興味がありますか?おしゃべりする時間を計画すべきです。私のご褒美はコーヒーです。",
+    "login_required": "ログインが必要です",
+    "login_msg": "メッセージを送信するには、ログインするかアカウントを作成してください。",
+    "btn_signin": "入力",
+    "btn_register": "リスト",
+    "form": {
+      "name": "名前",
+      "email": "電子メール",
+      "subject": "主題",
+      "message": "メッセージ",
+      "subject_placeholder": "プロジェクトの質問",
+      "message_placeholder": "あなたのプロジェクトについて教えてください...",
+      "btn_submit": "メッセージを送信する",
+      "btn_sending": "送信..."
+    }
+  },
+  "footer": {
+    "description": "情熱と正確さを持ってデジタル エクスペリエンスを作成します。スケーラブルで安全な、本番環境に対応したソリューションに焦点を当てます。",
+    "quick_links": "クイックリンク",
+    "account": "アカウント",
+    "location": "位置",
+    "rights": "著作権は保護されています。",
+    "built_with": "設計および製造されたもの",
+    "remote_friendly": "リモート可能"
+  }
+}

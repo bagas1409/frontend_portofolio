@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "projects": "Proyek",
+    "testimonials": "Testimoni",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "role": "Senior Web     Developer",
+    "description": "Membangun pengalaman web yang presisi, mudah diakses, dan berperforma tinggi.",
+    "cta_projects": "Lihat Proyek",
+    "cta_contact": "Hubungi Saya"
+  },
+  "about": {
+    "badge_exp": "Pengalaman Fullstack",
+    "years_exp": "1+ Tahun",
+    "title_main": "Membangun Produk Digital Yang ",
+    "title_accent": "Bermakna.",
+    "skills": {
+      "frontend_title": "Frontend",
+      "frontend_desc": "Menciptakan antarmuka pengguna yang perfect, responsif, dan mudah diakses menggunakan Next.js dan Tailwind.",
+      "backend_title": "Backend",
+      "backend_desc": "Membangun API yang scalable dan arsitektur database aman dengan Node.js dan PostgreSQL/MongoDB.",
+      "mobile_title": "Lintas Platform",
+      "mobile_desc": "Menghadirkan pengalaman mobile native menggunakan React Native dan Expo."
+    }
+  },
+  "projects": {
+    "portfolio": "Proyek",
+    "selected_works": "Hasil Karya",
+    "filter_all": "Semua",
+    "filter_web": "Web",
+    "filter_mobile": "Mobile",
+    "view_project": "Lihat Proyek",
+    "stack_used": "Teknologi"
+  },
+  "testimonials": {
+    "label": "Testimoni",
+    "heading": "Apa Kata Klien Kami",
+    "subheading": "Kami bangga memberikan hasil yang luar biasa. Berikut adalah ulasan jujur dari mitra dan klien kami.",
+    "happy_clients": "Klien Puas",
+    "based_on": "Berdasarkan 100+ Ulasan"
+  },
+  "contact": {
+    "subheading": "Kontak",
+    "heading": "Mari mulai proyek bersama",
+    "description": "Tertarik bekerja sama? Kita harus jadwalkan waktu untuk ngobrol. Kopi saya yang traktir.",
+    "login_required": "Login Diperlukan",
+    "login_msg": "Silakan masuk atau buat akun untuk mengirim pesan kepada kami.",
+    "btn_signin": "Masuk",
+    "btn_register": "Daftar",
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "subject_placeholder": "Pertanyaan Proyek",
+      "message_placeholder": "Ceritakan tentang proyek Anda...",
+      "btn_submit": "Kirim Pesan",
+      "btn_sending": "Mengirim..."
+    }
+  },
+  "footer": {
+    "description": "Menciptakan pengalaman digital dengan hasrat dan presisi. Berfokus pada solusi yang scalable, aman, dan siap produksi.",
+    "quick_links": "Tautan Cepat",
+    "account": "Akun",
+    "location": "Lokasi",
+    "rights": "Hak cipta dilindungi.",
+    "built_with": "Didesain & Dibuat dengan",
+    "remote_friendly": "Bisa Remote"
+  }
+}

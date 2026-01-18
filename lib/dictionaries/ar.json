@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "الصفحة الرئيسية",
+    "about": "عن",
+    "projects": "مشروع",
+    "testimonials": "شهادة",
+    "contact": "اتصال"
+  },
+  "hero": {
+    "role": "مطور ويب كبير",
+    "description": "أنشئ تجارب ويب دقيقة وسهلة الوصول وعالية الأداء.",
+    "cta_projects": "عرض المشاريع",
+    "cta_contact": "اتصل بي"
+  },
+  "about": {
+    "badge_exp": "تجربة فولستاك",
+    "years_exp": "1+ سنوات",
+    "title_main": "بناء المنتجات الرقمية التي",
+    "title_accent": "ذات مغزى.",
+    "skills": {
+      "frontend_title": "الواجهة الأمامية",
+      "frontend_desc": "تم إنشاء واجهات مستخدم خالية من العيوب وسريعة الاستجابة ويمكن الوصول إليها باستخدام Next.js وTailwind.",
+      "backend_title": "الخلفية",
+      "backend_desc": "إنشاء واجهات برمجة تطبيقات قابلة للتطوير وبنى قواعد بيانات آمنة باستخدام Node.js وPostgreSQL/MongoDB.",
+      "mobile_title": "منصة عبر",
+      "mobile_desc": "تقديم تجارب الهاتف المحمول الأصلية باستخدام React Native وExpo."
+    }
+  },
+  "projects": {
+    "portfolio": "مشروع",
+    "selected_works": "تحفة",
+    "filter_all": "الجميع",
+    "filter_web": "ويب",
+    "filter_mobile": "متحرك",
+    "view_project": "عرض المشاريع",
+    "stack_used": "تكنولوجيا"
+  },
+  "testimonials": {
+    "label": "شهادة",
+    "heading": "ماذا يقول عملاؤنا",
+    "subheading": "نحن نفخر بتقديم نتائج استثنائية. وفيما يلي مراجعات صادقة من شركائنا وعملائنا.",
+    "happy_clients": "عميل راض",
+    "based_on": "بناءً على أكثر من 100 تعليق"
+  },
+  "contact": {
+    "subheading": "اتصال",
+    "heading": "دعونا نبدأ مشروعًا معًا",
+    "description": "هل أنت مهتم بالعمل معًا؟ يجب أن نحدد موعدًا للدردشة. علاجي هو القهوة.",
+    "login_required": "تسجيل الدخول مطلوب",
+    "login_msg": "يرجى تسجيل الدخول أو إنشاء حساب لإرسال الرسائل إلينا.",
+    "btn_signin": "يدخل",
+    "btn_register": "قائمة",
+    "form": {
+      "name": "اسم",
+      "email": "بريد إلكتروني",
+      "subject": "موضوع",
+      "message": "رسالة",
+      "subject_placeholder": "أسئلة المشروع",
+      "message_placeholder": "أخبرنا عن مشروعك...",
+      "btn_submit": "أرسل رسالة",
+      "btn_sending": "يرسل..."
+    }
+  },
+  "footer": {
+    "description": "قم بإنشاء تجارب رقمية بشغف ودقة. ركز على الحلول القابلة للتطوير والآمنة والجاهزة للإنتاج.",
+    "quick_links": "روابط سريعة",
+    "account": "حساب",
+    "location": "موقع",
+    "rights": "حقوق الطبع والنشر محمية.",
+    "built_with": "مصممة ومصنوعة مع",
+    "remote_friendly": "يمكن أن تكون بعيدة"
+  }
+}

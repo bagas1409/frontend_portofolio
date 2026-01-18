@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "主页",
+    "about": "关于",
+    "projects": "项目",
+    "testimonials": "感言",
+    "contact": "接触"
+  },
+  "hero": {
+    "role": "高级网页开发人员",
+    "description": "构建精确、可访问且高性能的 Web 体验。",
+    "cta_projects": "查看项目",
+    "cta_contact": "联系我"
+  },
+  "about": {
+    "badge_exp": "全栈经验",
+    "years_exp": "1年以上",
+    "title_main": "打造数字产​​品",
+    "title_accent": "有意义。",
+    "skills": {
+      "frontend_title": "前端",
+      "frontend_desc": "使用 Next.js 和 Tailwind 创建完美、响应灵敏且可访问的用户界面。",
+      "backend_title": "后端",
+      "backend_desc": "使用 Node.js 和 PostgreSQL/MongoDB 构建可扩展的 API 和安全的数据库架构。",
+      "mobile_title": "跨平台",
+      "mobile_desc": "使用 React Native 和 Expo 提供原生移动体验。"
+    }
+  },
+  "projects": {
+    "portfolio": "项目",
+    "selected_works": "杰作",
+    "filter_all": "全部",
+    "filter_web": "网络",
+    "filter_mobile": "移动的",
+    "view_project": "查看项目",
+    "stack_used": "技术"
+  },
+  "testimonials": {
+    "label": "感言",
+    "heading": "我们的客户怎么说",
+    "subheading": "我们为能够提供卓越的成果而感到自豪。以下是我们的合作伙伴和客户的诚实评论。",
+    "happy_clients": "满意的客户",
+    "based_on": "基于 100 多条评论"
+  },
+  "contact": {
+    "subheading": "接触",
+    "heading": "让我们一起开始一个项目",
+    "description": "有兴趣一起工作吗？我们应该安排时间聊天。我的请客是咖啡。",
+    "login_required": "需要登录",
+    "login_msg": "请登录或创建帐户向我们发送消息。",
+    "btn_signin": "进入",
+    "btn_register": "列表",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "subject": "主题",
+      "message": "信息",
+      "subject_placeholder": "项目问题",
+      "message_placeholder": "告诉我们您的项目...",
+      "btn_submit": "发送消息",
+      "btn_sending": "发送..."
+    }
+  },
+  "footer": {
+    "description": "充满激情和精确地创造数字体验。专注于可扩展、安全且可投入生产的解决方案。",
+    "quick_links": "快速链接",
+    "account": "帐户",
+    "location": "地点",
+    "rights": "版权受保护。",
+    "built_with": "设计和制造",
+    "remote_friendly": "可以远程"
+  }
+}

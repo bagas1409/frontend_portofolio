@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Home page",
+    "about": "About",
+    "projects": "Project",
+    "testimonials": "Testimonial",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "Senior Web Developer",
+    "description": "Build precise, accessible, and high-performance web experiences.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact me"
+  },
+  "about": {
+    "badge_exp": "Fullstack Experience",
+    "years_exp": "1+ Years",
+    "title_main": "Building Digital Products That",
+    "title_accent": "Meaningful.",
+    "skills": {
+      "frontend_title": "Frontend",
+      "frontend_desc": "Created flawless, responsive, and accessible user interfaces using Next.js and Tailwind.",
+      "backend_title": "Backend",
+      "backend_desc": "Building scalable APIs and secure database architectures with Node.js and PostgreSQL/MongoDB.",
+      "mobile_title": "Cross Platform",
+      "mobile_desc": "Delivering native mobile experiences using React Native and Expo."
+    }
+  },
+  "projects": {
+    "portfolio": "Project",
+    "selected_works": "Masterpiece",
+    "filter_all": "All",
+    "filter_web": "Web",
+    "filter_mobile": "Mobile",
+    "view_project": "View Projects",
+    "stack_used": "Technology"
+  },
+  "testimonials": {
+    "label": "Testimonial",
+    "heading": "What Our Clients Say",
+    "subheading": "We pride ourselves on delivering exceptional results. Below are honest reviews from our partners and clients.",
+    "happy_clients": "Satisfied Client",
+    "based_on": "Based on 100+ Reviews"
+  },
+  "contact": {
+    "subheading": "Contact",
+    "heading": "Let's start a project together",
+    "description": "Interested in working together? We should schedule time to chat. My treat is coffee.",
+    "login_required": "Login Required",
+    "login_msg": "Please log in or create an account to send us messages.",
+    "btn_signin": "Enter",
+    "btn_register": "List",
+    "form": {
+      "name": "Name",
+      "email": "E-mail",
+      "subject": "Subject",
+      "message": "Message",
+      "subject_placeholder": "Project Questions",
+      "message_placeholder": "Tell us about your project...",
+      "btn_submit": "Send message",
+      "btn_sending": "Send..."
+    }
+  },
+  "footer": {
+    "description": "Create digital experiences with passion and precision. Focus on solutions that are scalable, secure, and production ready.",
+    "quick_links": "Quick Links",
+    "account": "Account",
+    "location": "Location",
+    "rights": "Copyright protected.",
+    "built_with": "Designed & Made with",
+    "remote_friendly": "Can be remote"
+  }
+}
