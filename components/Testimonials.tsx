@@ -11,7 +11,7 @@ const TESTIMONIALS = [
     id: 1,
     name: "Budi Santoso",
     role: "CEO, TechStart",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: "/testimonial.jpg",
     quote:
       "Bagas adalah developer yang luar biasa. Hasil kerjanya melebihi ekspektasi kami, sangat detail dan profesional.",
     rating: 5,
@@ -20,7 +20,7 @@ const TESTIMONIALS = [
     id: 2,
     name: "Sarah Wijaya",
     role: "Product Manager",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    image: "/testimonial.jpg",
     quote:
       "Kerjasama yang sangat menyenangkan. Komunikasi lancar dan pengerjaan proyek tepat waktu.",
     rating: 5,
@@ -29,7 +29,7 @@ const TESTIMONIALS = [
     id: 3,
     name: "Michael Chen",
     role: "Founder, StartupKita",
-    image: "https://randomuser.me/api/portraits/men/86.jpg",
+    image: "/testimonial.jpgg",
     quote:
       "Website yang dibangun sangat responsif dan cepat. UX yang diterapkan benar-benar memanjakan user kami.",
     rating: 4,
@@ -38,7 +38,7 @@ const TESTIMONIALS = [
     id: 4,
     name: "Linda Kusuma",
     role: "Marketing Director",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
+    image: "/testimonial.jpg",
     quote:
       "Desain yang modern dan fungsionalitas yang handal. Sangat merekomendasikan jasa ini.",
     rating: 5,
@@ -47,7 +47,7 @@ const TESTIMONIALS = [
     id: 5,
     name: "Reza Rahardian",
     role: "Art Director",
-    image: "https://randomuser.me/api/portraits/men/22.jpg",
+    image: "/testimonial.jpg",
     quote:
       "Estetika yang sangat bagus. Bagas mengerti betul tentang komposisi warna dan layout.",
     rating: 5,
