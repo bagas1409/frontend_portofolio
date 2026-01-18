@@ -11,7 +11,7 @@ const TESTIMONIALS = [
     id: 1,
     name: "Budi Santoso",
     role: "CEO, TechStart",
-    image: "/avatar-placeholder.jpg", // Replace with actual photo
+    image: "/avatar-placeholder.PNG", // Replace with actual photo
     quote:
       "Bagas adalah developer yang luar biasa. Hasil kerjanya melebihi ekspektasi kami, sangat detail dan profesional.",
     rating: 5,
@@ -20,7 +20,7 @@ const TESTIMONIALS = [
     id: 2,
     name: "Sarah Wijaya",
     role: "Product Manager",
-    image: "/avatar-placeholder.jpg", // Replace with actual photo
+    image: "/avatar-placeholder.PNG", // Replace with actual photo
     quote:
       "Kerjasama yang sangat menyenangkan. Komunikasi lancar dan pengerjaan proyek tepat waktu.",
     rating: 5,
@@ -29,7 +29,7 @@ const TESTIMONIALS = [
     id: 3,
     name: "Michael Chen",
     role: "Founder, StartupKita",
-    image: "/avatar-placeholder.jpg", // Replace with actual photo
+    image: "/avatar-placeholder.PNG", // Replace with actual photo
     quote:
       "Website yang dibangun sangat responsif dan cepat. UX yang diterapkan benar-benar memanjakan user kami.",
     rating: 4,
@@ -38,7 +38,7 @@ const TESTIMONIALS = [
     id: 4,
     name: "Linda Kusuma",
     role: "Marketing Director",
-    image: "/avatar-placeholder.jpg", // Replace with actual photo
+    image: "/avatar-placeholder.PNG", // Replace with actual photo
     quote:
       "Desain yang modern dan fungsionalitas yang handal. Sangat merekomendasikan jasa ini.",
     rating: 5,
@@ -47,7 +47,7 @@ const TESTIMONIALS = [
     id: 5,
     name: "Reza Rahardian",
     role: "Art Director",
-    image: "/avatar-placeholder.jpg", // Replace with actual photo
+    image: "/avatar-placeholder.PNG", // Replace with actual photo
     quote:
       "Estetika yang sangat bagus. Bagas mengerti betul tentang komposisi warna dan layout.",
     rating: 5,
